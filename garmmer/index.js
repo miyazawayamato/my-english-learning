@@ -53,4 +53,5 @@ quiz_but.addEventListener("click", () => {
 
 open_ans.addEventListener("click", () => {
   ans.textContent = arr[ans_num][1]
+  open_ans.style.display ="none";
 })

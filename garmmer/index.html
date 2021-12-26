@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>文法</title>
 </head>
 <body>
-    <button id="rem-start">覚える</button>
-    <button id="quiz-start">クイズ</button>
     
-    <div>
-        <!-- <button>次へ</button> -->
-        <button id="open-ans" style="display: none;">答えを見る</button>
-    </div>
     
     <div>
         <p id="question"></p>
         <p id="answer"></p>
     </div>
     
+    <div class="menu">
+        <button id="open-ans" style="display: none;" class="menu-but">答えを見る</button>
+    </div>
+    
+    <div>
+        <div class="menu">
+            <button class="menu-but" id="rem-start">覚える</button>
+        </div>
+        <div class="menu">
+            <button class="menu-but" id="quiz-start">クイズ</button>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
