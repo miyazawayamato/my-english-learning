@@ -11,13 +11,15 @@ function csv_data(dataPath) {
         const response = event.target.responseText; // 受け取ったテキストを返す
         let word_list = csv_array(response) //csv_arrayの関数を実行
         
+        
         for (let i = 0; i < word_list.length; i++) {
             let word_tr = document.createElement("tr");
             let en_td = document.createElement("td");
             let ja_td = document.createElement("td");
             
+            console.log(i)
             en_td.textContent = word_list[i][0].trim()
-            ja_td.textContent = word_list[i][1].trim()
+            ja_td.textContent = word_list[i][1]
             word_tr.appendChild(en_td)
             word_tr.appendChild(ja_td)
             
