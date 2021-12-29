@@ -1,0 +1,24 @@
+td {
+    text-align: center;
+    border:1px solid #000066;
+    background:#ffffff;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse:collapse;
+}
+
+th{
+    border:1px solid #000066;
+    background:royalblue;
+}
+
+.center {
+    text-align: center;
+}
+
+#page_menu {
+    margin-top: 10px;
+    text-align: center;
+}
