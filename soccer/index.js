@@ -38,7 +38,7 @@ function csv_array(data) {
 }
 
 
-csv_data('soccer.csv');
+csv_data('../book.csv');
 
 
 
